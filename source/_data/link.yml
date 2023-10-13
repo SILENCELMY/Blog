@@ -5,6 +5,10 @@
       link: https://hexo.io/zh-tw/
       avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
       descr: 快速、简单且强大的网志框架
+    - name: Kawa2split
+      link: https://www.kawa2split.art/
+      avatar: https://dev.azure.com/Kawa2split/91ca45b9-b089-427d-bb29-c720e31ce439/_apis/git/repositories/0e8130b6-2cdb-4d70-a6b2-52a4b8988150/items?path=/Avatar/Sayafx.jpg&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=main&resolveLfs=true&%24format=octetStream&api-version=5.0
+      descr: 友人の网站
 
 - class_name: 网站
   class_desc: 值得推荐的网站
