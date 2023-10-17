@@ -390,7 +390,7 @@ docsearch:
 # https://github.com/overtrue/share.js
 sharejs:
   enable: true
-  sites: facebook,twitter,wechat,weibo,qq
+  sites: wechat,qq,facebook,twitter
 
 # AddToAny
 # https://www.addtoany.com/
