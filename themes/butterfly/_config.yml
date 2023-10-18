@@ -11,13 +11,13 @@ nav:
 menu:
   # Home: / || fas fa-home
   # Archives: /archives/ || fas fa-archive
-   标签: /tags/ || fas fa-tags
-   分类: /categories/ || fas fa-folder-open
-   资源: /resources/ || fas fa-save   
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  资源: /resources/ || fas fa-save
   # List：/ ||fas fa-list
   # Music: /music/ || fas fa-music
   # Movie: /movies/ || fas fa-video
-   链接: /link/ || fas fa-link
+  链接: /link/ || fas fa-link
   # About: /about/ || fas fa-heart
 
 # Code Blocks (代碼相關)
@@ -58,7 +58,7 @@ index_img: /img/background.png
 default_top_img: /img/background.png
 
 # The banner image of archive page
-archive_img: 
+archive_img:
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
@@ -98,7 +98,7 @@ error_img:
 # A simple 404 page
 error_404:
   enable: false
-  subtitle: 'Page Not Found'
+  subtitle: "Page Not Found"
   background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
 
 post_meta:
@@ -267,7 +267,7 @@ aside:
     sort_order: # Don't modify the setting unless you know how it works
   card_post_series:
     enable: true
-    orderBy: 'date' # Order by title or date
+    orderBy: "date" # Order by title or date
     order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
 
 # busuanzi count for PV / UV in site
@@ -304,9 +304,9 @@ translate:
   # Time delay
   translateDelay: 0
   # The text of the button when the language is Simplified Chinese
-  msgToTraditionalChinese: '繁'
+  msgToTraditionalChinese: "繁"
   # The text of the button when the language is Traditional Chinese
-  msgToSimplifiedChinese: '簡'
+  msgToSimplifiedChinese: "簡"
 
 # Read Mode (閲讀模式)
 readmode: true
@@ -688,7 +688,7 @@ canvas_fluttering_ribbon:
 # https://github.com/hustcc/canvas-nest.js
 canvas_nest:
   enable: false
-  color: '0,0,255' #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
+  color: "0,0,255" #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
   opacity: 0.7 # the opacity of line (0~1), default: 0.5.
   zIndex: -1 # z-index property of the background, default: -1.
   count: 99 # the number of lines, default: 99.
@@ -724,8 +724,8 @@ display_mode: light
 beautify:
   enable: true
   field: post # site/post
-  title-prefix-icon:  '\f0c1'
-  title-prefix-icon-color:  '#F47466'
+  title-prefix-icon: '\f0c1'
+  title-prefix-icon-color: "#F47466"
 
 # Global font settings
 # Don't modify the following settings unless you know how they work (非必要不要修改)
@@ -749,7 +749,7 @@ hr_icon:
 
 # the subtitle on homepage (主頁subtitle)
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect (打字效果)
   effect: true
   # Customize typed.js (配置typed.js)
@@ -803,7 +803,7 @@ fancybox: true
 # series (系列文章)
 series:
   enable: true
-  orderBy: 'title' # Order by title or date
+  orderBy: "title" # Order by title or date
   order: 1 # Sort of order. 1, asc for ascending; -1, desc for descending
   number: true
 
@@ -860,8 +860,8 @@ aplayerInject:
 snackbar:
   enable: false
   position: bottom-left
-  bg_light: '#49b1f5' # The background color of Toast Notification in light mode
-  bg_dark: '#1f1f1f' # The background color of Toast Notification in dark mode
+  bg_light: "#49b1f5" # The background color of Toast Notification in light mode
+  bg_dark: "#1f1f1f" # The background color of Toast Notification in dark mode
 
 # https://instant.page/
 # prefetch (預加載)
