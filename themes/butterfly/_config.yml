@@ -637,7 +637,7 @@ category_ui: # 留空或 index
 tag_ui: # 留空或 index
 
 # Stretches the lines so that each line has equal width（文字向兩側對齊，對最後一行無效）
-text_align_justify: false
+text_align_justify: true
 
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
@@ -661,7 +661,7 @@ enter_transitions: true
 # Typewriter Effect (打字效果)
 # https://github.com/disjukr/activate-power-mode
 activate_power_mode:
-  enable: false
+  enable: true
   colorful: true # open particle animation (冒光特效)
   shake: true #  open shake (抖動特效)
   mobile: false
